@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', ->
+document.addEventListener 'DOMContentLoaded', ->
   # Elements finding
   forms_block = document.getElementById('forms')
   create_btn = document.getElementById('create')
@@ -64,4 +64,3 @@ document.addEventListener('DOMContentLoaded', ->
     text_field = document.createElement('TEXTAREA')
     text_field.value = data
     forms_block.appendChild(text_field)
-)
